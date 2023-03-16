@@ -1,0 +1,49 @@
+html{
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    background: url(assets/porto.jpg) center center fixed no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+.profile-card{
+    position: relative;
+    width: cover;
+    height: cover;
+    z-index: 1;
+}
+.porto, .introduction{
+    position: absolute;
+    z-index: 2;
+
+}
+
+.introduction{
+    right: 0;
+    left: 600px;
+    width: 40%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+.porto{
+    left: 0;
+    width: 60%;
+    height: 90%;
+}
+.headline{
+    align-items: center;
+}
+.me{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+}
+.headline{
+    background-color: rgba(255, 255, 255, 0.13);
+}
